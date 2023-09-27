@@ -29,7 +29,7 @@ int main()
     int n, key, arr[10];
     cout << "enter array length :";
     cin >> n;
-    cout << "enter array:";
+    cout << "enter sorted array:";
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
