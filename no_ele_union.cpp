@@ -1,15 +1,10 @@
-//{ Driver Code Starts
-//Initial template for C++
 #include<iostream>
 #include<set>
 using namespace std;
 
-// } Driver Code Ends
-//User function template in C++
-
 class Solution{
     public:
-    //Function to return the count of number of elements in union of two arrays.
+    
     int doUnion(int a[], int n, int b[], int m)  {
 
         set<int>s;
@@ -22,8 +17,6 @@ class Solution{
         return s.size();
     }
 };
-
-//{ Driver Code Starts.
 
 int main() {
     int t;
@@ -45,10 +38,8 @@ int main() {
 	    for(int i = 0;i<m;i++)
 	       cin >> b[i];
 	    Solution ob;
-	    cout << ob.doUnion(a, n, b, m) << endl;
+	    cout << "ans is :"<<ob.doUnion(a, n, b, m) << endl;
 	    
 	}
-	
 	return 0;
 }
-// } Driver Code Ends
