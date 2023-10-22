@@ -19,11 +19,7 @@ class Solution{
 };
 
 int main() {
-    int t;
-	cout<<"t :";
-	cin >> t;
-	
-	while(t--){
+    
 	    
 	    int n, m;
         cout<<"n : ";
@@ -40,6 +36,6 @@ int main() {
 	    Solution ob;
 	    cout << "ans is :"<<ob.doUnion(a, n, b, m) << endl;
 	    
-	}
+	
 	return 0;
 }

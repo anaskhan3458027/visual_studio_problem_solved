@@ -27,5 +27,5 @@ int main()
     cout << min << " ";
     min = 0;
 }
-return 0;
-}
+//return 0;
+//}
