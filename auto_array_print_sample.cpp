@@ -1,18 +1,19 @@
 #include<iostream>
+#include<conio.h>
 using namespace std;
 int main()
 {
     int temp = 0;
     int n;
+    cout<<"enter length of array";
     cin>>n;
     int arr[n];
-    for(int i = 0 ; i < n ; i++){
+  /*  for(int i = 0 ; i < n ; i++){
         arr[i]= temp;
         temp++;
-    }
+    }*/
     for(int j = 0 ; j <n ; j ++){
-        cout<<arr[j]<<"\t\t\t\n";
+        cout<<arr[j];
     }
-    cout<<endl<<arr[9];
- return 0;
+getch();
 }

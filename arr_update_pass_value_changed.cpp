@@ -10,7 +10,7 @@ int main()
 { 
        
     int arr[3]={1,2,3};
-    update(arr ,3);
+    update(arr ,4);
     cout<<endl;
     for(int i=0;i<3;i++){
         cout<<arr[i]<<" ";

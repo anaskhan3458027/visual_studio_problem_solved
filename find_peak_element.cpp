@@ -20,6 +20,7 @@ int peak_element_serach(int arr[], int n)
         
     }
     return arr[start];
+
 }
 int main()
 {
